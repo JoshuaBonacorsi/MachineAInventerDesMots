@@ -39,30 +39,7 @@ Comparons les résultats obtenu avec les méthodes dit diagramme et trigramme, a
 [Nouveaux Verbe | TRIGRAMME](results/result_TRI_fr-adjectif_15_5000.txt "cliquez pour voir les mots crées")
 
 On observe que certains mots paraissent français mais ne le sont pas haha ! <br>
-Aussi on pourra remarquer que le % de nouveau mot crée avec le trigramme, déjà existant dans la liste de 6 mille verbes (donc le % de mots qui existent belle et bien !) est superieur au % de nouveau mots crée avec le digramme.
-
----
-### 🎳 Bonus
-Maintenant que notre programme marche bien, on peut encore s'amuser en l'executant avec d'autres listes de mots !
-#### • Créer de nouveaux prénoms Comorien 🇰🇲
-De parents comoriens, chaque membre de ma famille possède un prénom comorien, un prénom qui sonnent comorien. Je me suis dis, pourquoi ne pas créer des prénoms comoriens pour voir ? <br>
-
-Pour ce faire, j'avais besoin d'un dictionnaire de prénoms comoriens.. mais contrairement au dictionnaire de prénoms français, sur internet on ne trouve pas de dictionnaire de mots comorien... Je devais donc créer moi même ce dictionnaire.<br>
-
-Non, je n'ai pas tapé un par un tous les noms comoriens que je connaissais. En faite, en cherchant une liste de prénoms comorien je suis tombé sur un site qui énumération plein de prénoms féminin et masculin comorien. Hmmm comment récuperer des élements sur une veille page we.. bim WEB SCRAPING !
-J'ai donc utiliser une methode de <b> web scraping </b> en python pour récuperer super facilement ces 2 listes de prénoms, les laver et les convertir en format txt utilisable pour mon programme.<br>
-
-Après execution magie magie on obtiens :<br>
-[Nouveaux prénoms comoriens | Fille](results/result_DI_km-prenomFeminin_15_5000.txt "cliquez pour voir les mots crées") <br>
-[Nouveaux Prénoms comoriens | Garçon](results/result_DI_km-prenomMasculin_15_5000.txt "cliquez pour voir les mots crées")<br>
-
-J'ai montré ça à mes parents, ils ont pu validé le fait que malgré que la majorité des mots n'aies aucun sens, on dirait vraiment des prénoms comoriens ! <br> 
-
-En conclusion, comme avec les nouveaux mots crées avec un dictionnaire français, on se rend compte qu'il y a une "mélodie" dans ces nouveaux mots crée qui nous semble familière. On peut même dire que les mots sont en réalité des partitions, les enchainements de lettre sont des enchainements de note et selon la disposition de certaines notes, l'air joué change, la langue change. 
-
-#### • Créer des noms aléatoires pour mes composition 🎹
-
-
+Aussi on pourra remarquer que le % de nouveau mot crée avec le trigramme, déjà existant dans la liste de 6000verbes (donc le % de mots qui existe bel et bien !) est supérieur au % de nouveau mots créé avec le digramme.
 ---
 ### 📸 Screenshots 
 
